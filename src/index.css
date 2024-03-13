@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.active {
+  color: red;
+}
+
+.nav-decoration {
+  text-decoration: none;
+}
+
+.nav-decoration:hover {
+  color: red;
+  font-size: 15px;
+}
+
+.contact {
+  background-image: url('./Components/images/contactbg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.contactus {
+  border: 1px solid;
+  border-radius: 20px;
+
+}
+
+.formClass {
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 0 10px blue;
+}
+
+.footerClass {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.footerClass:hover {
+  color: blue;
+  font-size: 30px;
+}
+
+.homeClass {
+  background-image: url('../src/Components/images/HomeImg1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.intro{
+  color: #b48608;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+}
+.intro1{
+  margin-top: 15%;
+}
+
+.nameAnimation{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.profileImg {
+  border-radius: 50%;
+}
+
+.resumeBtn:hover {
+  background-color: rgb(40, 79, 95);
+  font-size: 15px;
+}
+
+.resumeBtn1 {
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 0 10px rgb(19, 19, 142);
+}
+
+.card-Img {
+  height: 150px;
+  width: 150px;
+}
+
+.crd {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  /* border: 2px solid skyblue; */
+  color: white;
+
+}
+
+.technologies {
+  color: #b48608;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+}
+
+.tech{
+  margin-top: 15%;
+}
+
+.allneed{
+  color: #b48608;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+  margin-top: 15%;
+}
+
+#icons{
+  font-size: 30px;
+  color: white;
+}
+
+.textcls{
+  font-size: 20px;
+  color: white;
+  font-family: 'Droid serif', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.allneedcard{
+  backdrop-filter: blur(30px);
+  background: transparent;
+}
+
+.crdname{
+  font-family: 'Droid serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #b48608;
+}
+
+.thirdcard{
+  display: flex;
+  justify-content: center;
+}
+
+.crdhvr{
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.crdhvr :hover{
+  transform: scale(1.02); /* Zoom effect on hover */
+  /* box-shadow: 0 0 20px rgba(227, 247, 5, 0.649); Box shadow effect on hover */
+}
+
+.services{
+  background-image: url('/public/Components/images/489350.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: sticky;
+  font-weight: 600;
+  /* margin-top: -13%; */
+}
+
+.allneedservices{
+  color: #ffbf0e;
+  font-family: 'Droid serif', serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+}
+
+.textclsservices{
+  color: rgba(0, 0, 0, 0.722);
+}
+
+.crdnameservices{
+  color: #000000;
+  font-family: 'Droid serif', serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 12px;
+
+}
+
+.about{
+  background-image: url('/public/Components/images/about.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.abtcrd{
+  background: transparent;
+  backdrop-filter: blur(40px);
+  color: white;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.abtcrd :hover{
+  transform: scale(1.02);
+  /* box-shadow: 0 0 10px rgba(23, 93, 0, 0.712); */
+}
